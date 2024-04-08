@@ -1,0 +1,14 @@
+h1 {
+    color:gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botonera {
+    width: 1000 px;
+    height: 200 px;
+    background-color: gray;
+}
+#cabecera {
+    background-color: blue;
+    width: 21000 px;
+    height: 11000 px;
+}
