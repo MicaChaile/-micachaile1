@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 700&display=swap')
-
-
-
-
-body{
-    font-family: "Poppins", sans-serif;
-    background-color: 
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 700&display=swap');
 
 
 body{
@@ -48,13 +40,14 @@ nav ol ul{
     align-items: center;
     justify-content: center;
     padding: 100px;
+    padding-top: 200px;
 }
 .parteuno h1{
     display: block;
     max-width: 600px;
     margin: 100px;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 85px;
 }
 .parteuno p{
     display: inline-block;
@@ -66,17 +59,17 @@ nav ol ul{
 
 
 .partedos{
-    display:flex;
+    display:flex; 
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 100px;
 }
 .partedos h2{
     font-weight: bold;
-    font-size: 45px;
-    max-width: 600px;
-    padding: 70px 70px;
-    margin: 50px;
+    font-size: 50px;
+    max-width: 400px;
+    padding: 50px 50px;
+    margin: 30px;
 }
 .partedos div{
     display:flex; 
@@ -84,7 +77,6 @@ nav ol ul{
     padding: 10px 10px;
     margin: 30px;
     align-items: center;
-    max-width: 100px;
 }
 .partedos img{
     padding: 0px 70px;
@@ -95,7 +87,9 @@ nav ol ul{
     font-size: 15px;
 }
 
-
+.partedos article{
+    display:flex;
+}
 
 .partetres{
     display:flex;
@@ -106,14 +100,14 @@ nav ol ul{
 .partetres h2{
     display:block;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 50px;
     max-width: 600px;
     padding: 70px 70px;
     margin: 50px;
     margin-right: 300px;
 }
 .partetres ol h3{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     padding: 0%;
     margin: 1px;
@@ -138,16 +132,17 @@ nav ol ul{
 .partecuatro{
     display:flex; 
     align-items: center;
+    justify-content: center;
     padding: 100px;
 }
 .partecuatro h2{
     display:block;
     font-weight: bold;
-    font-size: 45px;
-    max-width: 600px;
+    font-size: 50px;
+    max-width: 700px;
     padding: 70px 70px;
     margin: 50px;
-    margin-right: 300px;
+    margin-right: 150px;
 }
 .partecuatro h4{
     font-weight: normal;
@@ -167,12 +162,12 @@ nav ol ul{
     display:flex; 
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 50px;
 }
 .contacto h2{
-    font-size: 45px;
+    font-size: 50px;
     padding: 20px 20px;
-    margin: 10px;
+    margin: 30px;
 }
 .contacto p{
     max-width: 100px;
@@ -180,7 +175,17 @@ nav ol ul{
     padding: 0%;
     margin: 1px;
 }
-
+.contacto article{
+    display:flex; 
+    flex-direction:row;
+    padding: 10px 10px;
+    margin: 7px;
+    align-items: center;
+}
+.contacto article h4{
+    padding: 10px 10px;
+    margin: 5px;
+}
 
 
 footer{
