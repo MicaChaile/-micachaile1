@@ -27,7 +27,7 @@ nav img{
     padding: 10px;
 }
 
-nav ol ul{
+nav ol li{
     display: inline-block;
     padding: 0px 40px;
 }
