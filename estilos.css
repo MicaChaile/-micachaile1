@@ -91,6 +91,8 @@ nav ol ul{
     display:flex;
 }
 
+
+
 .partetres{
     display:flex;
     align-items: center;
@@ -103,8 +105,7 @@ nav ol ul{
     font-size: 50px;
     max-width: 600px;
     padding: 70px 70px;
-    margin: 50px;
-    margin-right: 300px;
+    margin-right: 200px;
 }
 .partetres ol h3{
     font-size: 35px;
@@ -127,7 +128,6 @@ nav ol ul{
 }
 
 
-
   
 .partecuatro{
     display:flex; 
@@ -141,8 +141,7 @@ nav ol ul{
     font-size: 50px;
     max-width: 700px;
     padding: 70px 70px;
-    margin: 50px;
-    margin-right: 150px;
+    margin-right: 60px;
 }
 .partecuatro h4{
     font-weight: normal;
