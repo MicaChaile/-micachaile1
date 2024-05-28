@@ -27,7 +27,7 @@ nav img{
     padding: 10px;
 }
 
-nav ol li{
+nav ul li{
     display: inline-block;
     padding: 0px 40px;
 }
@@ -35,21 +35,21 @@ nav ol li{
 
 
 
-.parteuno{
+.quien {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 100px;
     padding-top: 200px;
 }
-.parteuno h1{
+.quien h1{
     display: block;
     max-width: 600px;
     margin: 100px;
     font-weight: bold;
     font-size: 85px;
 }
-.parteuno p{
+.quien p{
     display: inline-block;
     max-width: 500px;
     padding: 50px 50px;
@@ -58,48 +58,48 @@ nav ol li{
 
 
 
-.partedos{
+.habilidades{
     display:flex; 
     flex-direction: column;
     align-items: center;
     padding: 100px;
 }
-.partedos h2{
+.habilidades h2{
     font-weight: bold;
     font-size: 50px;
     max-width: 400px;
     padding: 50px 50px;
     margin: 30px;
 }
-.partedos div{
+.habilidades div{
     display:flex; 
     flex-direction: column;
     padding: 10px 10px;
     margin: 30px;
     align-items: center;
 }
-.partedos img{
+.habilidades img{
     padding: 0px 70px;
     filter: drop-shadow(0 0 5px)
 }
-.partedos h3{
+.habilidades h3{
     font-weight: normal;
     font-size: 15px;
 }
 
-.partedos article{
+.habilidades article{
     display:flex;
 }
 
 
 
-.partetres{
+.experiencia{
     display:flex;
     align-items: center;
     justify-content:center;
     padding: 100px;
 }
-.partetres h2{
+.experiencia h2{
     display:block;
     font-weight: bold;
     font-size: 50px;
@@ -107,20 +107,20 @@ nav ol li{
     padding: 70px 70px;
     margin-right: 200px;
 }
-.partetres ol h3{
+.experiencia ol h3{
     font-size: 35px;
     font-weight: bold;
     padding: 0%;
     margin: 1px;
     margin-top: 45px;
 }
-.partetres ol li{
+.experiencia ol li{
     list-style-type: none;
     font-size: 15px;
     padding: 0%;
     margin: 1px;
 }
-.partetres ol h4{
+.experiencia ol h4{
     font-size: 15px;
     font-weight: normal;
     padding: 0%;
@@ -129,13 +129,13 @@ nav ol li{
 
 
   
-.partecuatro{
+.formacion{
     display:flex; 
     align-items: center;
     justify-content: center;
     padding: 100px;
 }
-.partecuatro h2{
+.formacion h2{
     display:block;
     font-weight: bold;
     font-size: 50px;
@@ -143,49 +143,18 @@ nav ol li{
     padding: 70px 70px;
     margin-right: 60px;
 }
-.partecuatro h4{
+.formacion h4{
     font-weight: normal;
     font-size: 15px;
     padding: 0%;
     margin: 10px;
 }
-.partecuatro p{
+.formacion p{
     font-size: 15px;
     font-weight:bold;
     padding: 0%;
     margin: 10px;
 }
-
-
-.contacto{
-    display:flex; 
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-}
-.contacto h2{
-    font-size: 50px;
-    padding: 20px 20px;
-    margin: 30px;
-}
-.contacto p{
-    max-width: 100px;
-    font-size: 15px;
-    padding: 0%;
-    margin: 1px;
-}
-.contacto article{
-    display:flex; 
-    flex-direction:row;
-    padding: 10px 10px;
-    margin: 7px;
-    align-items: center;
-}
-.contacto article h4{
-    padding: 10px 10px;
-    margin: 5px;
-}
-
 
 footer{
     display: flex;
