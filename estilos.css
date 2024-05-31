@@ -18,7 +18,7 @@ nav{
     padding-top: 5px;
     padding-left: 5%;
     padding-right:5%;
-    background-color: rgb(224, 223, 223);
+    background-color: white;
 }
 
 nav img{
@@ -32,7 +32,26 @@ nav ul li{
     padding: 0px 40px;
 }
 
-
+h1{
+    font-weight: bold;
+    font-size: 8em;
+}
+h2{
+    font-weight: bold;
+    font-size: 4em;
+}
+h3{
+    font-weight: bold;
+    font-size: 2em;
+}
+p{
+    font-weight: normal;
+    font-size: 1em;
+}
+h4{
+    font-weight: normal;
+    font-size: 1em;
+}
 
 
 .quien {
@@ -40,14 +59,11 @@ nav ul li{
     align-items: center;
     justify-content: center;
     padding: 100px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .quien h1{
     display: block;
-    max-width: 600px;
     margin: 100px;
-    font-weight: bold;
-    font-size: 85px;
 }
 .quien p{
     display: inline-block;
@@ -62,31 +78,23 @@ nav ul li{
     display:flex; 
     flex-direction: column;
     align-items: center;
-    padding: 100px;
+    padding: 80px;
 }
-.habilidades h2{
-    font-weight: bold;
-    font-size: 50px;
+.habilidades p{
     max-width: 400px;
-    padding: 50px 50px;
-    margin: 30px;
+    padding: 10px;
 }
 .habilidades div{
     display:flex; 
     flex-direction: column;
     padding: 10px 10px;
-    margin: 30px;
+    margin: 80px;
     align-items: center;
 }
 .habilidades img{
     padding: 0px 70px;
     filter: drop-shadow(0 0 5px)
 }
-.habilidades h3{
-    font-weight: normal;
-    font-size: 15px;
-}
-
 .habilidades article{
     display:flex;
 }
@@ -97,32 +105,25 @@ nav ul li{
     display:flex;
     align-items: center;
     justify-content:center;
-    padding: 100px;
+    padding: 80px;
 }
 .experiencia h2{
     display:block;
-    font-weight: bold;
-    font-size: 50px;
     max-width: 600px;
     padding: 70px 70px;
-    margin-right: 200px;
+    margin-right: 400px;
 }
 .experiencia ol h3{
-    font-size: 35px;
-    font-weight: bold;
     padding: 0%;
     margin: 1px;
     margin-top: 45px;
 }
 .experiencia ol li{
     list-style-type: none;
-    font-size: 15px;
     padding: 0%;
     margin: 1px;
 }
 .experiencia ol h4{
-    font-size: 15px;
-    font-weight: normal;
     padding: 0%;
     margin: 1px;
 }
@@ -130,40 +131,37 @@ nav ul li{
 
   
 .formacion{
-    display:flex; 
-    align-items: center;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 100px;
+    align-items: center;
+    padding: 80px;
 }
-.formacion h2{
-    display:block;
-    font-weight: bold;
-    font-size: 50px;
-    max-width: 700px;
-    padding: 70px 70px;
-    margin-right: 60px;
+.universidad{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .formacion h4{
-    font-weight: normal;
-    font-size: 15px;
     padding: 0%;
-    margin: 10px;
+    margin: 5px;
 }
 .formacion p{
-    font-size: 15px;
     font-weight:bold;
     padding: 0%;
-    margin: 10px;
+    margin: 5px;
 }
 
 footer{
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 0px;
     background-color: rgb(224, 223, 223);
 }
-footer img{
-    padding: 0px 10px
+footer h2{
+    padding-top: 50px;
 }
