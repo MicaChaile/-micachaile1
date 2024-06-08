@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link href="estilos.css" rel="stylesheet" type="text/css">
-    <title>CV Micaela Chaile/Contacto</title>
+    <title>Portfolio Micaela Chaile/Contacto</title>
     <link rel="icon" href="img/logocv.ico">
 </head>
 <body>
@@ -16,10 +16,44 @@
             </ul>
         </nav>
     </header>
-
-
-
-
+    <main>
+        <section id="contacto">
+            <h1>Contacto</h1>
+        </section>
+        <section id="contenido">
+            <article class="informacion-contacto">
+                <form method="post" action="mailto:micach355@gmail.com?subject='Email enviado desde Portfolio Micaela Chaile'" target="_blank" enctype="text/plain">
+                    <div>
+                        <label for="name">Nombre</label>
+                        <input type="texto" id="nombre" maxlength="60" required>
+                    </div>
+                    <div>
+                        <label for="numero">Telefono</label>
+                        <input type="text" id="numero" maxlength="60" required>
+                    </div> 
+                    <div class="block">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" maxlength="60" required>
+                    </div>
+                    <div class="block">
+                        <label for="mensaje">¿Quieres saber más? Escríbime</label>
+                        <textarea type="mensaje" rows="8" maxlength="500" required></textarea>
+                    </div>
+                    <button type="enviar" value="enviar" formenctype="text/plain">Enviar</button>
+                </form>
+            </article>
+            <article class="redes-sociales">
+                <p>¡Seguime!</p>
+                <div class="redes">
+                    <img src="img/behance.png" width="57px" height="57px" alt="behance"/><a href="https://www.behance.net/micaelachaile"></a>
+                    <img src="img/gmail.png" width="57px" height="57px" alt="gmail"/><a href=""></a>
+                    <img src="img/instagram.png" width="57px" height="57px" alt="instagram"/><a href=""></a>
+                </div>
+                <p>Buenos Aires, Argentina</p>
+                <p>(+54) 11 3101 -0218</p>
+            </article>
+        </section>
+    </main>
     
     <footer>
         <p><a href="contacto.html">Contacto</a></p>
