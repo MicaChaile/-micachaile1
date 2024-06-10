@@ -17,36 +17,117 @@
         </nav>
     </header>
     <main>
-        <section class="galeriaeditorial">
-            <h2>Editorial</h2>
+        <section class="galeria" id="editorial">
+            <div class="texto">
+                <h2>Editorial</h2>
+                <img src="img/svg/flechagaleria.svg">
+            </div>
             <div class="galeriaimagenes">
-                <a><img src="img/delirium-galeria.jpg" width="480px" height="480px" alt="delirium-portada"></a>
-                <a><img src="img/delirium-interior-galeria.jpg" width="480px" height="480px" alt="delirium-interior"></a>
-                <a><img src="img/delirium-paginas-galeria.jpg" width="480px" height="480px" alt="delirium-paginas"></a>
-                <a><img src="img/infografiaplastico-galeria.jpg" width="480px" height="480px" alt="infografiaplastico"></a>
-                <a><img src="img/infografia plastico-zoom-galeria.jpg" width="480px" height="480px" alt="infografiaplastico-zoom"></a>
+                <div class="proyectos">
+                    <a><img src="img/galeria/delirium-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="delirium-portada"></a>
+                    <div class="descripcion">
+                        <p>Diseño Editorial - Delirium</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/delirium-interior-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="delirium-interior"></a>
+                    <div class="descripcion">
+                        <p>Diseño Editorial - Delirium</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/delirium-paginas-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="delirium-paginas"></a>
+                    <div class="descripcion">
+                        <p>Diseño Editorial - Delirium</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/infografiaplastico-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="infografiaplastico"></a>
+                    <div class="descripcion">
+                        <p>Infografía - Diseño de información</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/infografia plastico-zoom-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="infografiaplastico-zoom"></a>
+                    <div class="descripcion">
+                        <p>Infografía - Diseño de información</p>
+                    </div>
+                </div>
+                <div class="ful-img" id="fulImgBox">
+                    <img src="img/galeria/delirium-galeria.jpg" id="fulImg" alt="">
+                    <span onclick="closeFulImg()"><img src="img/svg/flechaoculta-01.svg" width="50px" height="50px"></span>
+                </div>
             </div>
         </section>
-        <section class="galeriabranding">
-            <h2>Branding</h2>
-            <div class="galeriaimagenes">
-                <a><img src="img/sobrevivir-galeria.jpg" width="480px" height="480px" alt="sobrevivir-galeria"></a>
-                <a><img src="img/sobrevivir-diptico-galeria.jpg" width="480px" height="480px" alt="sobrevivir-diptico"></a>
-                <a><img src="img/sobrevivir-merch-galeria.jpg" width="480px" height="480px" alt="sobrevivir-merch"></a>
-                <a><img src="img/twix-latas-galeria.jpg" width="480px" height="480px" alt="twix-latas"></a>
-                <a><img src="img/twix-caja-galeria.jpg" width="480px" height="480px" alt="twix-caja"></a>
+        <section class="galeria" id="branding">
+            <div class="texto">
+                <h2>Branding</h2>
+                <img src="img/svg/flechagaleria.svg">
             </div>
-        </section>
-        <section class="galeriadiseñoweb">
-            <h2>Diseño Web</h2>
-            <img src="img/fle">
             <div class="galeriaimagenes">
-                <a><img src="img/" width="480px" height="480px" alt="webgarrahan"></a>
-                <a><img src="img/webgarrahan2-galeria.jpg" width="480px" height="480px" alt="webgarrahan2"></a>
-                <a><img src="img/webgarrahanmobile-galeria.jpg" width="480px" height="480px" alt="webgarrahanmobile"></a>
+                <div class="proyectos">
+                    <a><img src="img/galeria/sobrevivir-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="sobrevivir-galeria"></a>
+                    <div class="descripcion">
+                        <p>Sistema - Sobrevivir</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/sobrevivir-diptico-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="sobrevivir-diptico"></a>
+                    <div class="descripcion">
+                        <p>Sistema - Sobrevivir</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/sobrevivir-merch-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="sobrevivir-merch"></a>
+                    <div class="descripcion">
+                        <p>Sistema - Sobrevivir</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/twix-latas-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px"  alt="twix-latas"></a>
+                    <div class="descripcion">
+                        <p>Sistema - Twix</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/twix-caja-galeria.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="twix-caja"></a>
+                    <div class="descripcion">
+                        <p>Sistema - Twix</p>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="galeria" id="web">
+            <div class="texto">
+                <h2>Diseño Web</h2>
+                <img src="img/svg/flechagaleria.svg">
+            </div>
+            <div class="galeriaimagenes">
+                <div class="proyectos">
+                    <a><img src="img/galeria/web-escritorio01.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="webgarrahan"></a>
+                    <div class="descripcion">
+                        <p>Diseño Web - Programa Garrahan</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/web-escritorio02.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="webgarrahan2"></a>
+                    <div class="descripcion">
+                        <p>Diseño Web - Programa Garrahan</p>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <a><img src="img/galeria/web-mobile.jpg" onclick="openFulImg(this.src)" width="480px" height="480px" alt="garrahanmobile"></a>
+                    <div class="descripcion">
+                        <p>Diseño Web - Programa Garrahan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <video src="img/Programa de Reciclado - diseñoweb.mp4" width="868px" height="450px" alt="video_diseñoweb"
+                controls></video>
+            </div>
+        </section>
     </main>
     
 
@@ -54,5 +135,6 @@
         <p><a href="contacto.html">Contacto</a></p>
         <p>© 2024 MICAELA CHAILE. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>
