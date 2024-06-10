@@ -29,6 +29,26 @@ nav ul li{
     display: inline-block;
     padding: 0px 40px;
 }
+li a{
+    position: relative;
+    padding: 17px;
+}
+li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 nav a{
     text-decoration: none;
     color: black;
@@ -46,9 +66,11 @@ footer{
 footer p{
     padding-top: 0px;
     margin: 5px;
+    margin-bottom: 0px;
 }
 footer a{
     color: black;
+    padding: 5px;
     text-decoration-line: underline;
 }
 
@@ -81,6 +103,7 @@ h4{
     justify-content: center;
     padding: 200px;
     padding-top: 130px;
+    gap: 80px;
 }
 .quien h1{
     display: flex;
@@ -89,6 +112,7 @@ h4{
     line-height: 130px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .quien p{
     display: inline-block;
@@ -128,10 +152,8 @@ h4{
 .proyectos{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     padding: 200px;
     padding-top: 130px;
-    gap: 50px;
 }
 .proyectos .texto{
     display: flex;
@@ -143,6 +165,57 @@ h4{
 .proyectos .texto p{
     width: 450px;
     margin: 0%;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.botones button{
+    width: 870px;
+    background: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    padding: 10px 10px;
+    border: none;
+    background: none;
+    opacity: 0.5;
+}
+div a{
+    text-decoration: none
+}
+button span{
+    font-size: 2em;
+    font-weight: normal;
+    text-decoration: none;
+}
+button{
+    position: relative;
+    padding: 17px;
+}
+button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+button:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
+button:hover{
+    opacity: 1;
 }
 
 
@@ -274,6 +347,8 @@ h4{
 .video {
     padding: 40px 0px;
     padding-bottom: 100px;
+    display:flex;
+    justify-content: center;
 }
 video{
     border-radius: 20px;
@@ -313,7 +388,6 @@ video{
     transition: background-color 1s ease-out;
 }
 
-.informacion-contacto button,
 .informacion-contacto input,
 .informacion-contacto textarea{
     width: 100%;
@@ -324,15 +398,31 @@ video{
     border-bottom: 1px solid black ;
 }
 
-.informacion-contacto form button{
-    border: none;
-    background: none;
-    outline: 0;
-    border-bottom: 1px solid black ;
-    width: 100px;
-    font-weight: normal;
+form button{
     font-size: 1em;
-    padding: 0px 100px;
+    font-weight: normal;
+    text-decoration: none;
+}
+form button{
+    position: relative;
+    padding: 17px;
+}
+form button::after {
+    content: '';
+    color: black;
+    position: absolute;
+    width: 200px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+form button:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 
@@ -352,4 +442,8 @@ video{
     gap: 44px;
     padding: 50px 200px;
     padding-bottom: 150px;
+}
+.redes{
+    display: flex;
+    gap: 10px;
 }
