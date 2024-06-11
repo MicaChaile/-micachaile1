@@ -95,13 +95,14 @@ h4{
     font-size: 1em;
 }
 
-/* index */
+/* INDEX */
 
 .quien {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px 200px;
+    height: 65vh;
+    height: 80vh;
     gap: 80px;
 }
 .quien h1{
@@ -121,12 +122,13 @@ h4{
     margin: 50px;
 }
 
+/* HABILIDADES */
 
 .habilidades{
     display:flex; 
     flex-direction: column;
     align-items: center;
-    padding: 80px;
+    height: 65vh;
 }
 .habilidades p{
     max-width: 400px;
@@ -135,24 +137,29 @@ h4{
 .habilidades div{
     display:flex; 
     flex-direction: column;
-    padding: 10px 10px;
-    margin: 80px;
+    padding: 50px 120px;
+    margin: 0px;
     align-items: center;
 }
 .habilidades img{
+    max-width: 400px;
     padding: 0px 70px;
     filter: drop-shadow(0 0 5px)
 }
-.habilidades article{
+.contenedorprogramas{
     display:flex;
+    justify-content: space-between;
 }
 .habilidades img:hover {
     transform: scale(1.2);
 }
+
+/* PROYECTOS */
+
 .proyectos{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 70px 200px;
+    padding: 200px;
 }
 .proyectos .texto{
     display: flex;
@@ -162,7 +169,7 @@ h4{
     margin: 0%;
 }
 .proyectos .texto p{
-    width: 450px;
+    max-width: 450px;
     margin: 0%;
 }
 .botones{
@@ -183,6 +190,8 @@ button{
     border: none;
     background: none;
     opacity: 0.5;
+    position: relative;
+    padding: 17px;
 }
 div a{
     text-decoration: none
@@ -191,10 +200,6 @@ button span{
     font-size: 2em;
     font-weight: normal;
     text-decoration: none;
-}
-button{
-    position: relative;
-    padding: 17px;
 }
 button::after {
     content: '';
@@ -217,11 +222,12 @@ button:hover{
     opacity: 1;
 }
 
+/* EXPERIENCIA */
 
 .experiencia{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    padding: 70px 200px;
+    padding: 0px 200px;
     gap: 100px;
 }
 .experiencia h2{
@@ -252,12 +258,14 @@ button:hover{
     margin: 1px;
 }
 
+/* FORMACION */
+
 .formacion{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    height: 50vh;
 }
 .universidad{
     display:flex;
@@ -277,15 +285,16 @@ button:hover{
     margin: 0;
 }
 
-/* proyectos */
+/* PROYECTOS */
+
 .galeria{
     padding: 50px 200px;
 }
 .texto h2{
-    width: auto;
+    max-width: auto;
 }
 .texto img{
-    width: 60px;
+    max-width: 60px;
     height: 60px;
     margin: 55px 0px;
     padding: 15px;
@@ -311,7 +320,7 @@ button:hover{
     justify-content: center;
     flex-direction:column;
     align-items: center;
-    width: 480px;
+    max-width: 480px;
     position: absolute;
     transition: 0.5s;
     color: white;
@@ -347,7 +356,6 @@ button:hover{
     cursor: pointer;
 }
 .ful-img img{
-    width: 90%;
     max-width: 480px;
 }
 
@@ -361,7 +369,7 @@ video{
     border-radius: 20px;
 }
 
-/* contacto */
+/* CONTACTO */
 
 #contacto{
     display:flex;
@@ -388,15 +396,11 @@ video{
 .informacion-contacto form div{
     margin: 0;
     padding: 0 1em;
+    position: relative;
 }
 .informacion-contacto form button:hover{
     color: rgb(0, 0, 0);
     transition: background-color 1s ease-out;
-}
-
-
-.informacion-contacto form div{
-    position: relative;
 }
 input{
     padding: 0.6rem 1.2rem;
@@ -416,10 +420,6 @@ input:focus~label{
     background-color: white;
     font-size: 1rem;
 }
-
-
-
-
 .informacion-contacto input,
 .informacion-contacto textarea{
     width: 100%;
@@ -429,7 +429,6 @@ input:focus~label{
     border-bottom: 1px solid black ;
     background: transparent;
 }
-
 form button{
     font-size: 1.5em;
     font-weight: normal;
@@ -440,8 +439,6 @@ form button{
     width: 180px;
     cursor: pointer;
 }
-
-
 
 .redes-sociales{
     max-width: 400px;
