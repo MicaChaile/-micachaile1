@@ -435,7 +435,7 @@ video{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 1000px;
-    gap: 20px;
+    gap: 25px;
 }
 
 .informacion-contacto form .block{
@@ -462,15 +462,16 @@ label{
     top: 0.6rem;
     left: 1.2rem;
     transition: 0.4s all;
-    padding-inline: 0.50rem;
+    padding-inline: 0.6rem;
     color: rgba(0, 0, 0, 0.6);
     cursor: text;
+    border-radius: 15px;
 }
 
 input:focus~label,
-input:focus~label{
-    top: -2rem;
-    left: 0.5rem;
+textarea:focus~label{
+    top: -1rem;
+    left: 1.3rem;
     background-color: white;
     font-size: 1rem;
 }
@@ -478,7 +479,7 @@ input:focus~label{
 .informacion-contacto input,
 .informacion-contacto textarea{
     width: 100%;
-    padding: 0.7em;
+    padding: 0.8em;
     transition: 0.4s all;
     border-radius: 10px;
     border-bottom: 1px solid black ;
