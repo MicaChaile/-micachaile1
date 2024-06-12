@@ -112,7 +112,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 65vh;
+    height: 80vh;
     gap: 80px;
 }
 
@@ -120,6 +120,7 @@ h4{
     display: flex;
     margin: 50px;
     padding: 50px;
+    max-width: 500px;
     line-height: 130px;
     align-items: center;
     justify-content: center;
@@ -175,7 +176,7 @@ h4{
 .proyectos{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 200px;
+    padding: 150px 200px;
 }
 
 .proyectos .texto{
@@ -347,7 +348,6 @@ button:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    cursor: url('img/punteroagrandar.png')0 0 auto;
 }
 
 .galeriaimagenes .proyectosgaleria img{
@@ -467,6 +467,7 @@ label{
     cursor: text;
 }
 
+input:focus~label,
 input:focus~label{
     top: -2rem;
     left: 0.5rem;
@@ -521,17 +522,7 @@ form button{
 }
 
 @media screen and (max-whith: 600px) {
-    .quien{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 10vh;
-    }
-    .quien h1{
-        margin: 0;
-        width: 80%;
-    }
+    
     
 }
     
