@@ -185,6 +185,7 @@ h4{
 }
 
 .proyectos .texto h2{
+    max-width: 450px;
     margin: 0%;
 }
 
@@ -522,8 +523,81 @@ form button{
     gap: 10px;
 }
 
-@media screen and (max-whith: 600px) {
-    
-    
+@media screen and (max-width: 600px){
+    nav ul li{
+        display: inline-block;
+        padding: 10px;
+    }
+    nav ul{
+        padding: 0px;
+    }
+    .quien{
+        display:flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .quien h1{
+        padding: 0%;
+        margin: 0%;
+        max-width: 90%;
+        font-size: 5em;
+    }
+    .quien p{
+        margin: 0%;
+        padding: 0%;
+        width: 60%;
+        text-align: center;
+    }
+    .contenedorprogramas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .habilidades div{
+        padding: 20px 30px;
+    }
+    .habilidades img{
+        padding: 0pc 40px;
+    }
+    .proyectos{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        padding: 10px 100px 20px ;
+    }
+    .proyectos h2{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .proyectos .botones button{
+        max-width: 500px;
+    }
+    .experiencia{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0px;
+    }
+    .experiencia h2{
+        padding: 0%;
+        margin: 100px 0px 0px ;
+    }
+    .experiencia h2{
+        padding: 0px 100px;
+    }
+    .formacion{
+        text-align: center;
+        line-height: 4em;
+        gap: 20px;
+    }
+    .universidad{
+        line-height: 1.7em;
+    }
 }
+    
+    
+
     
