@@ -3,6 +3,6 @@ A partir de lo propuesto por la cátedra, de pasar de un Currículum con un HTML
 Trabaje en una pantalla de resolución 1920px 1080px.
 Página principal adaptada a @MEDIA 600px. 
 Utilice Visual Studio Code. 
-Link de figma: 
+Link de figma: https://www.figma.com/design/0q86umdRvWflKtVH10KLxS/Tp2?node-id=65-97&t=7budF0nR5cG4bsvk-1
 
 
